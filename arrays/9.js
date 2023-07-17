@@ -8,5 +8,7 @@ for (let i = 0; i < arr.length; i++) {
        if(a[i][j]!=str[j])
        f=false;
   }
+  else
+  f=false;
 }
 console.log(f);
