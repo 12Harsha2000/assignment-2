@@ -4,7 +4,7 @@ function areAnagrams(word1, word2) {
     }
   
     const charCount1 = {};
-  const charCount2 = {};
+    const charCount2 = {};
     for (let char of word1) {
       charCount1[char] = (charCount1[char] || 0) + 1;
     }
